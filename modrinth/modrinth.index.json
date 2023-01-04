@@ -15,6 +15,28 @@
         "sha512": "5d5c464af27cda91176cee9ef7181ebee8e533b66f8e928874945505124d73f2fb044ea755c3d361f4fef175013c1c6f0f1649ee90bf2c77947f30a76189a302"
       },
       "fileSize": 1844612
+    },
+    {
+      "path": "mods/wannabe.jar",
+      "downloads": [
+        "https://github.com/bingecraft-net/wannabe/releases/download/142/wannabe-142.jar"
+      ],
+      "hashes": {
+        "sha1": "9c42d59b07883dc3457fcb3318968a48f56361ee",
+        "sha512": "ec370a6e847915b59959434712c475e9fcb889529d5ae5ad87fbc388f2ffcc619cac8fd76fbf2375237f9822418ca85b0c8afd189386fba83fca16673a914140"
+      },
+      "fileSize": 22198
+    },
+    {
+      "path": "mods/libgui.jar",
+      "downloads": [
+        "https://github.com/CottonMC/LibGui/releases/download/6.5.0/LibGui-6.5.0+1.19.3.jar"
+      ],
+      "hashes": {
+        "sha1": "834441bcc47c7a5a03395399cc68af95b7254edf",
+        "sha512": "b39f9da9c48069c2d7218482ae35e18fc29952e07925be5c043da89993386ed70f89539c643644624058ee9b3ac0333dd4fcc92bb0aacaaf7ed6625ef2d76de5"
+      },
+      "fileSize": 369291
     }
   ],
   "dependencies": {
