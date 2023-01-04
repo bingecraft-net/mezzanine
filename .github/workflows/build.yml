@@ -1,0 +1,27 @@
+# Automatically build the project and run any configured tests for every push
+# and submitted pull request. This can help catch issues that only occur on
+# certain platforms or Java versions, and provides a first line of defence
+# against bad commits.
+
+name: build
+on: [pull_request, push]
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        # Use these Java versions
+        java: [
+          17,    # Current Java LTS & minimum supported by Minecraft
+        ]
+        # and run on both Linux and Windows
+        os: [windows-2022]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v3
+      - name: upload modrinth artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: mezzanine.mrpack
+          path: modrinth
