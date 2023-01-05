@@ -1,5 +1,5 @@
 #!/bin/sh
 mkdir -p build
 cd modrinth
-zip -r ../build/mezzanine-`git rev-list --count HEAD`.mrpack *
+zip ../build/mezzanine-`git rev-list --count HEAD`.mrpack *
 cd -
