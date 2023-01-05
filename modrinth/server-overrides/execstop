@@ -1,0 +1,6 @@
+#!/bin/zsh
+/usr/bin/stuff mezzanine save-all
+/usr/bin/stuff mezzanine stop
+while screen -ls mezzanine >> /dev/null ; do
+  sleep 0.25
+done
