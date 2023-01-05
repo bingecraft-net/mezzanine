@@ -1,0 +1,2 @@
+#!/bin/sh
+echo https://mezzanine.bingecraft.net/files/mezzanine-`git rev-list --count HEAD`.mrpack
