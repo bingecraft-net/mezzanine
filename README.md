@@ -19,9 +19,10 @@ You need [Prism Launcher](https://prismlauncher.org/) or another Modrinth-compat
 You need [mrpack-install](https://github.com/nothub/mrpack-install)
 
 ```
-mkdir mezzanine
+mrpack-install https://mezzanine.bingecraft.net/files/mezzanine-10.mrpack \
+    --server-file server.jar \
+    --server-dir mezzanine
 cd mezzanine
-mrpack-install https://mezzanine.bingecraft.net/files/mezzanine-10.mrpack --server-file server.jar --server-dir .
 ```
 
 ### run
