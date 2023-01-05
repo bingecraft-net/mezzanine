@@ -37,6 +37,21 @@
         "sha512": "b39f9da9c48069c2d7218482ae35e18fc29952e07925be5c043da89993386ed70f89539c643644624058ee9b3ac0333dd4fcc92bb0aacaaf7ed6625ef2d76de5"
       },
       "fileSize": 369291
+    },
+    {
+      "path": "mods/proxy-protocol-support.jar",
+      "downloads": [
+        "https://mezzanine.bingecraft.net/files/proxy_protocol_support-1.0.2-fabric.jar"
+      ],
+      "hashes": {
+        "sha1": "b86509fedd5a5aaa7ed423323dd393cba244e5a6",
+        "sha512": "416a22e3faeb50f9aaf9b73681e9043f26bbee52b05ca53c0f5eaf4618ed9f9c4ebfac80626c9c916cf74b456afdd14bba2257a9124009866f4664cae30578de"
+      },
+      "fileSize": 49896,
+      "env": {
+        "client": "unsupported",
+        "server": "required"
+      }
     }
   ],
   "dependencies": {
