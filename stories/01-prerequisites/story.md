@@ -24,3 +24,7 @@ investing in builds or configuration.
 - DNS names, firewall rules, and port exposure are decided.
 - The Coolify deployment resource supports the required network and TCP-port
   configuration.
+
+## Findings
+
+Findings are available [here](./findings.md).
