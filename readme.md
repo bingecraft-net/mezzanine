@@ -75,7 +75,7 @@ graph TB
 
 ## Implementation steps
 
-1. [Confirm prerequisites and constraints](stories/01-prerequisites.md)
+1. [Confirm prerequisites and constraints](stories/01-prerequisites/story.md)
 2. [Prepare the source and image](stories/02-source-and-image.md)
 3. [Install and configure Coolify on Stepper](stories/03-coolify-on-stepper.md)
 4. [Build and deploy Velocity and the game server](stories/04-velocity-and-server.md)
