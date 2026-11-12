@@ -75,12 +75,12 @@ graph TB
 
 ## Implementation steps
 
-1. [Confirm prerequisites and constraints](stories/01-prerequisites/story.md)
-2. [Prepare the source and image](stories/02-source-and-image.md)
-3. [Install and configure Coolify on Stepper](stories/03-coolify-on-stepper.md)
-4. [Build and deploy Velocity and the game server](stories/04-velocity-and-server.md)
-5. [Make updates and recovery safe](stories/05-updates-and-recovery.md)
-6. [Operate the service](stories/06-operate-the-service.md)
+1. [Confirm prerequisites and constraints](./stories/01-prerequisites/story.md)
+2. [Prepare the source and image](./stories/02-source-and-image.md)
+3. [Install and configure Coolify on Stepper](./stories/03-coolify-on-stepper.md)
+4. [Build and deploy Velocity and the game server](./stories/04-velocity-and-server.md)
+5. [Make updates and recovery safe](./stories/05-updates-and-recovery.md)
+6. [Operate the service](./stories/06-operate-the-service.md)
 
 ## Completion criteria
 
@@ -104,12 +104,12 @@ graph TB
 
 ## References
 
-- [Monifactory](https://github.com/omicron-industries/monifactory) `~/code/omicron-industries/monifactory`
-- [Coolify](https://github.com/coollabsio/coolify) `~/code/coollabsio/coolify`
-- [Coolify Docs](https://github.com/coollabsio/coolify-docs) `~/code/coollabsio/coolify-docs`
-- [Velocity](https://github.com/PaperMC/Velocity) `~/code/papermc/velocity`
-- [Monifactory Containerization](https://github.com/bingecraft-net/superfluous) `~/code/bingecraft-net/superfluous`
-- [Velocity Containerization](https://github.com/bingecraft-net/velocity) `~/code/bingecraft-net/velocity`
+- [Monifactory](https://github.com/omicron-industries/monifactory)
+- [Coolify](https://github.com/coollabsio/coolify)
+- [Coolify Docs](https://github.com/coollabsio/coolify-docs)
+- [Velocity](https://github.com/PaperMC/Velocity)
+- [Monifactory Containerization](https://github.com/bingecraft-net/superfluous)
+- [Velocity Containerization](https://github.com/bingecraft-net/velocity)
 
 ### Prior art to verify against current releases
 
