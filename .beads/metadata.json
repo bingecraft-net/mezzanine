@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "mezzanine",
+  "project_id": "e09b7785-d2e9-446b-8a82-581ee63f4d24"
+}
